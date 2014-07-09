@@ -101,7 +101,7 @@ input[type=checkbox] {
 
 
 label{
-  height: 60px;
+  height: 58px;
   display: block;
   color: #000;
   text-transform: capitalize;
@@ -113,7 +113,7 @@ label{
   cursor: pointer;
   transition: all 0.7s ease;
   position: relative;
-  padding: 5px;
+  padding: 2px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -186,7 +186,7 @@ h3 {
 font-family: 'Helvetica';
 font-weight: lighter;
 	font-size: 18px;
-	margin-top: -2px;
+	
 }
 
 label h2 span {
@@ -197,9 +197,8 @@ display: block;
 	background-color:rgba(255, 245, 0, 0.31);
 	margin: 0 auto;
 	border-radius: 12px;
-	padding-bottom: 18px;
-	margin-bottom: 3em;
-	margin-top: -18px;
+	padding: 6px;
+	margin-top: 2px;
 
 }
 
