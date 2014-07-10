@@ -1,11 +1,6 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 
-@font-face {
-font-family: Helvetica;
-src: url("Helvetica.dfont");
-}
-
 html,
 button,
 input,
@@ -105,7 +100,7 @@ label{
   display: block;
   color: #000;
   text-transform: capitalize;
-	font-family: 'Helvetica';
+	font-family: 'Helvetica', arial;
 	font-weight: lighter;
   font-size: 10px;
   letter-spacing: 1px;
@@ -125,7 +120,7 @@ label h2 span{
   display: block;
   font-size: 12px;
   text-transform: capitalize;
-  font-weight: normal;
+  font-weight: 300;
   color: #6D6D6D;
 }
 
@@ -134,7 +129,7 @@ label:before{
   content:"";
   width: 20px;
   height: 20px;
-  background: #fff;
+  background: rgba(204, 214, 203, 0.57);
   display: block;
   position: absolute;
   border-radius: 100%;
@@ -189,9 +184,10 @@ font-weight: lighter;
 	
 }
 
-label h2 span {
-display: block;
+h2 {
+font-weight: 300;
 }
+
 #checklist {
 	width: 400px;
 	background-color:rgba(255, 245, 0, 0.31);
